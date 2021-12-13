@@ -9,6 +9,7 @@
 - `docker-compose up --build`
 
 ### production
+- copy config/master.key (this file is ignored from git)
 - `docker-compose -f docker-compose.production.yml build`
 - `docker-compose -f docker-compose.production.yml up -d`
 
