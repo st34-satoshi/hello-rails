@@ -10,6 +10,9 @@
 
 ### production
 - copy config/master.key (this file is ignored from git)
+    - or you can recreate credentials.yml.enc and master.key: 
+        - `rm credentials.yml.enc`
+        - `docker-compose run -e EDITOR=vim web rails credentials:edit`
 - `docker-compose -f docker-compose.production.yml build`
 - `docker-compose -f docker-compose.production.yml up -d`
 
