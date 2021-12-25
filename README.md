@@ -19,6 +19,7 @@
 ## Development
 - generate Home controller `docker-compose run web rails g controller Home`
 - migrate the db `docker-compose run web rails db:migrate`
+- install js packages using yarn `docker-compose run web yarn add package-name`
 
 
 
