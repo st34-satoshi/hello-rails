@@ -21,6 +21,11 @@
 - migrate the db `docker-compose run web rails db:migrate`
 - install js packages using yarn `docker-compose run web yarn add package-name`
 
+### debug
+- add `binding.pry`
+- find container name or id: `docker ps`, maybe hello-rails_web_1
+- `docker attach hello-rails_web_1`
+
 ### make a new app from this repository
 - change the name of `myapp` and `Myapp` to `your_app_name`
 
