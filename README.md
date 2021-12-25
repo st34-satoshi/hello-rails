@@ -17,9 +17,12 @@
 - `docker-compose -f docker-compose.production.yml up -d`
 
 ## Development
-- generate Home controller `docker-compose run web rails g controller Home`
+- generate Home controller `docker-compose run web rails g controller Users`
 - migrate the db `docker-compose run web rails db:migrate`
 - install js packages using yarn `docker-compose run web yarn add package-name`
+
+### make a new app from this repository
+- change the name of `myapp` and `Myapp` to `your_app_name`
 
 
 
