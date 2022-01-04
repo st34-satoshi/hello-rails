@@ -29,6 +29,7 @@
 ### before Pull Request
 - `docker-compose run web rubocop -A`
 - `docker-compose run web yarn run lint:js`
+- `docker-compose run web yarn run lint:stylesheet`
 
 ### make a new app from this repository
 - change the name of `myapp` and `Myapp` to `your_app_name`
