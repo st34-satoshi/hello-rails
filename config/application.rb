@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'boot'
 
 require 'rails/all'
@@ -19,6 +21,5 @@ module Myapp
     config.generators do |g|
       g.javascript_engine :js
     end
-
   end
 end
