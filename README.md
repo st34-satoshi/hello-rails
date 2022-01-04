@@ -26,6 +26,9 @@
 - find container name or id: `docker ps`, maybe hello-rails_web_1
 - `docker attach hello-rails_web_1`
 
+### before Pull Request
+- `docker-compose run web rubocop -A`
+
 ### make a new app from this repository
 - change the name of `myapp` and `Myapp` to `your_app_name`
 
