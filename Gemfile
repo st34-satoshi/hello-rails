@@ -3,11 +3,11 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.9'
+ruby '2.7.6'
 
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.3'
-gem 'rails', '~> 5.2.7'
+gem 'rails', '~> 6.1.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
