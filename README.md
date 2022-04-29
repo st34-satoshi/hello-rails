@@ -4,6 +4,7 @@
 - `docker-compose build`
 - `docker-compose run web rails db:create`
 - `docker-compose run web rails db:migrate RAILS_ENV=development`
+- `docker-compose run web yarn install`
 - `docker-compose up`
 
 ### after you change something
